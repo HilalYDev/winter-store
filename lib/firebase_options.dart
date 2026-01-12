@@ -47,29 +47,26 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDZOCyIyA-rso74x7qWSuJltGiqMZMrqdo',
-    appId: '1:450727470597:web:a1a1646d2ce21fc5285e6c',
-    messagingSenderId: '450727470597',
-    projectId: 'ecommerceapp-e301c',
-    authDomain: 'ecommerceapp-e301c.firebaseapp.com',
-    storageBucket: 'ecommerceapp-e301c.appspot.com',
-    measurementId: 'G-EX87D7KKZ2',
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY'),
+    appId: const String.fromEnvironment('FIREBASE_APP_ID'),
+    messagingSenderId: const String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: const String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: const String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAsuoLR_gZ28tDLsOSsX6iCq0EPTaejy9c',
-    appId: '1:450727470597:android:4de666faa99ef282285e6c',
-    messagingSenderId: '450727470597',
-    projectId: 'ecommerceapp-e301c',
-    storageBucket: 'ecommerceapp-e301c.appspot.com',
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY'),
+    appId: const String.fromEnvironment('FIREBASE_APP_ID'),
+    messagingSenderId: const String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: const String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: const String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyABzLGBPhNTE5lsaTU3LuC9jMuTJxKn86g',
-    appId: '1:450727470597:ios:5144e14c5837b4cc285e6c',
-    messagingSenderId: '450727470597',
-    projectId: 'ecommerceapp-e301c',
-    storageBucket: 'ecommerceapp-e301c.appspot.com',
-    iosBundleId: 'com.example.tStore',
+  apiKey: const String.fromEnvironment('FIREBASE_API_KEY'),
+    appId: const String.fromEnvironment('FIREBASE_APP_ID'),
+    messagingSenderId: const String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: const String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: const String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),re',
   );
 }
