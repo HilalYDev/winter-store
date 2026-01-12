@@ -38,7 +38,7 @@ This Flutter eCommerce app is a comprehensive and feature-rich solution for buil
 
 ### Development Notice
 
-1- Clone project with https://github.com/winter071203/flutter_ecommerce_app.git
+1- Clone project with https://github.com/HilalYDev/winter-store
 
 2- Run **flutter pub get** in terminal
 
